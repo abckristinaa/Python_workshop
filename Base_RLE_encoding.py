@@ -36,4 +36,4 @@ while x:
         print(mem, end='')
         mem = item
         prefix = 1
-
+        
