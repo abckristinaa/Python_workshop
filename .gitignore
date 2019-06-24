@@ -1,11 +1,25 @@
 # Byte-compiled / optimized / DLL files
+
+share/
+share/*
+
+local/
+local/*
+
+include/
+include/*
+
+env/
 __pycache__/
 *.py[cod]
+*.pyc
 
 # C extensions
 *.so
 
 # Distribution / packaging
+.idea/
+.idea/*
 bin/
 build/
 develop-eggs/
