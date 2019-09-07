@@ -1,4 +1,5 @@
 
+
 def info(x):
     '''this function returns the list of availiable methods with short description'''
 
@@ -9,4 +10,3 @@ def info(x):
         except:
             docs = getattr(x, method).__doc__
         print(method.ljust(20), docs)
-
