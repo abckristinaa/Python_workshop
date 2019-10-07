@@ -6,18 +6,14 @@ def comb_sort(array):
     # k - расстояние между крайними элементами массива
 
     k = int(len(array) // 1.247)
-    flag = 'uns'
-    while k > 0:
+    while k:
         i = 0
-        flag = 'sorted'
         while i + k < len(array):
             if array[i] > array[i + k]:
                 array[i], array[i + k] = array[i + k], array[i]
-                flag = 'uns'
             i += 1
-        if k == 1 and flag == 'sorted':
-            break
         k = int(k // 1.247)
+    return array
 
 
 comb_sort(array)
