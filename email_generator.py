@@ -45,4 +45,4 @@ if __name__ == "__main__":
         N = 500
 
     emails = generate_emails(generate_namelist(items=N))
-    write_in_file(emails, filename="emails.txt", )
+    write_in_file(emails, filename="emails.txt")
